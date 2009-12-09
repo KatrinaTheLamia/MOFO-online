@@ -1,0 +1,28 @@
+
+MOFO Online
+
+Based on the works by Shigesato Itoi
+
+MOFO Online is a set of framework designed around an online MMORPG based on 
+the concepts and ideas from the Mother series of games.
+
+Designed to be highly extendable and portable, this is a 2D MMORPG engine.
+
+Generally based around database checks and look ups, and simply sending 
+placement information to the client. Generally only sending information 
+that the client should be able to know. Input will be sent to the Mofo
+Online Server, and be qualified.
+
+Mofo Online will made use of Lua, ImageMagick, POSIX Sockets, SQLite3 and 
+POSIX Threads for most of its abilities being used.
+
+Other goals include being rather friendly on network activity and computer 
+resources.
+
+I mean, Mother 1 and Mother 2 ran on a system with less than 6MHz of 
+processing power. Mother 3 ran on an underclocked ARM7 sytem. With decent 
+coding techniques there is no reason that this should require any large 
+ammount of resources to run.
+
+The actual gameplay itself will not involved any form PKing, and be based 
+on a more cooperative style of gameplay.
